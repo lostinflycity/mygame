@@ -79,81 +79,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * <!--[if IE]>
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
-/* line 5, ../sass/styles.scss */
-.head {
-  width: 100%;
-  height: 6px;
-  background: #dd514c;
-}
-
-/* line 12, ../sass/styles.scss */
-.nav-fixed {
+/* line 3, ../sass/styles.scss */
+.header, .footer {
   position: fixed;
-  width: 70px;
-  top: 30px;
-  right: 30px;
-}
-/* line 18, ../sass/styles.scss */
-.nav-fixed ul {
-  background: white;
-  display: none;
-  position: relative;
-  right: 70px;
-  top: -3px;
-  width: 100px;
-  height: 200px;
-  border: rgba(127, 127, 127, 0.3) solid 1px;
-}
-/* line 27, ../sass/styles.scss */
-.nav-fixed ul li {
-  margin: 10px 10px 0 0;
-}
-/* line 29, ../sass/styles.scss */
-.nav-fixed ul li a:hover {
-  text-decoration: underline;
-  color: black;
-}
-/* line 34, ../sass/styles.scss */
-.nav-fixed ul li a {
-  display: block;
-  padding: 5px;
-  text-decoration: none;
-  color: black;
-  text-align: center;
-}
-
-/* line 46, ../sass/styles.scss */
-.nav-fixed:hover ul {
-  display: block;
-}
-
-/* line 50, ../sass/styles.scss */
-.nav-fixed:hover img {
-  border: rgba(127, 127, 127, 0.3) solid 1px;
-}
-
-/* line 55, ../sass/styles.scss */
-.content {
-  border: rgba(127, 127, 127, 0.3) solid 1px;
+  background: black;
+  height: 40px;
   width: 100%;
-  padding-bottom: 300px;
-  text-align: center;
-}
-/* line 62, ../sass/styles.scss */
-.content div {
-  height: 400px;
-  line-height: 500px;
-}
-/* line 65, ../sass/styles.scss */
-.content div h1 {
-  font-size: 150px;
-}
-/* line 70, ../sass/styles.scss */
-.content div h2 {
-  font-size: 50px;
+  color: #bababa;
 }
 
-/* line 77, ../sass/styles.scss */
-h1, h2, h3, h4, h5 {
-  padding-bottom: 20px;
+/* line 11, ../sass/styles.scss */
+.header {
+  top: 0px;
+}
+
+/* line 15, ../sass/styles.scss */
+.footer {
+  bottom: 0px;
+}
+
+/* line 18, ../sass/styles.scss */
+.contents {
+  margin: 40px auto;
+  width: 100%;
+  background: grey;
+  height: 1000px;
+}
+/* line 24, ../sass/styles.scss */
+.contents div {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* line 29, ../sass/styles.scss */
+#myCanvas {
+  margin: 0 auto;
+  width: 70%;
+  padding: 0 70px;
+}
+
+/* line 38, ../sass/styles.scss */
+.start input, .start div {
+  float: left;
+  background: #FFC107;
+  width: 22%;
+  height: 50px;
+  margin: 0 10px 10px 0px;
+  text-align: center;
+}
+/* line 47, ../sass/styles.scss */
+.start div {
+  line-height: 50px;
 }
